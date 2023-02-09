@@ -1,0 +1,46 @@
+body {
+  background-color: #00ffff;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 1em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu>a {
+  text-decoration: none;
+}
+
+li {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+li>a {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.about-container {
+  display: flex;
+}
+
+a.logo-container, a.menu {
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  margin: 0 16px;
+}
+
+.img-caption {
+  margin: 0.5em 1em;
+  font-style: italic;
+  font-size: 12pt;
+  color: grey;
+}
