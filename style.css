@@ -33,15 +33,21 @@ li>a {
   display: flex;
 }
 
-a.logo-container, a.menu {
-  text-decoration: none;
-  color: rgb(8, 8, 8);
-  margin: 0 16px;
-}
-
 .img-caption {
   margin: 0.5em 1em;
   font-style: italic;
   font-size: 12pt;
   color: grey;
+}
+
+img {
+  max-width: 100%;
+  min-width: 250px;
+  height: auto;
+}
+
+.menu {
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  margin: 0 16px;
 }
