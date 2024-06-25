@@ -1,9 +1,16 @@
 body {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   background-color: #00ffff;
   margin: 0 50px;
+  /* align the page in the center */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-width: 380px;
 }
 
-.content, .header{
+.content,
+.header {
   max-width: 800px;
 }
 
@@ -21,32 +28,18 @@ ul {
 
 .menu>a {
   text-decoration: none;
-}
-
-li {
-  font-size: 48px;
-  font-weight: 700;
-}
-
-li>a {
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.about-container {
-  display: flex;
+  color: rgb(8, 8, 8);
 }
 
 .img-caption {
   margin: 0.5em 1em;
   font-style: italic;
-  font-size: 12pt;
+  font-size: 12px;
   color: grey;
 }
 
 #banner {
   max-width: 100%;
-  min-width: 250px;
   height: auto;
 }
 
