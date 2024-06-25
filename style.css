@@ -14,23 +14,6 @@ body {
   max-width: 800px;
 }
 
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0 1em;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.menu>a {
-  text-decoration: none;
-  color: rgb(8, 8, 8);
-}
-
 .img-caption {
   margin: 0.5em 1em;
   font-style: italic;
@@ -38,18 +21,18 @@ ul {
   color: grey;
 }
 
-#banner {
+#banner,
+#gtoons-app {
   max-width: 100%;
   height: auto;
-}
-
-.menu {
-  text-decoration: none;
-  color: rgb(8, 8, 8);
-  margin: 0 16px;
+  display: block;
 }
 
 .store-link {
   height: 100px;
   width: 200px;
+}
+
+ul.logo {
+  padding: 0;
 }
